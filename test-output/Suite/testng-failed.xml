@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Academy.Listeners"/>
+  </listeners>
+  <test parallel="tests" name="Validate ValidateTitle(failed)">
+    <classes>
+      <class name="Academy.HomePage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.HomePage -->
+      <class name="Academy.ValidateTitle">
+        <methods>
+          <include name="basePageNavigation"/>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.ValidateTitle -->
+      <class name="Academy.ValidateNavigationBar">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.ValidateNavigationBar -->
+    </classes>
+  </test> <!-- Validate ValidateTitle(failed) -->
+  <test parallel="tests" name="Validating Validate Navigation Bar(failed)">
+    <classes>
+      <class name="Academy.HomePage">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.HomePage -->
+      <class name="Academy.ValidateTitle">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.ValidateTitle -->
+      <class name="Academy.ValidateNavigationBar">
+        <methods>
+          <include name="intialize"/>
+          <include name="basePageNavigation"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.ValidateNavigationBar -->
+    </classes>
+  </test> <!-- Validating Validate Navigation Bar(failed) -->
+  <test parallel="tests" name="Validate Homepage(failed)">
+    <classes>
+      <class name="Academy.HomePage">
+        <methods>
+          <include name="testBaseNavigation" invocation-numbers="0 1"/>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.HomePage -->
+      <class name="Academy.ValidateTitle">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.ValidateTitle -->
+      <class name="Academy.ValidateNavigationBar">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.ValidateNavigationBar -->
+    </classes>
+  </test> <!-- Validate Homepage(failed) -->
+</suite> <!-- Failed suite [Suite] -->
