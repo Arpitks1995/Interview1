@@ -22,6 +22,8 @@ public class HomePage extends base {
 	@BeforeTest
 	public void intialize() throws IOException {
 		driver=intializeDriver();
+		System.out.println("Postman1");
+		System.out.println("Postman2");
 	}
 	
 	
