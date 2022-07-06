@@ -20,6 +20,7 @@ public class Testing {
 		log=Logger.getLogger(Testing.class);
 		log.info("Framework execution is started");
 	    System.out.println("Pir se execute Karo");
+	    System.out.println("Aage Execute kardiya hai");
 		/*log.error("Info Log is print");
 		log.warn("Info Log is print");
 		log.fatal("Info Log is print");
