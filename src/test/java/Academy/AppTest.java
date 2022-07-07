@@ -17,4 +17,11 @@ public class AppTest
     {
         assertTrue( true );
     }
+    
+    @Test
+    public void shouldAnswer1WithTrue()
+    {
+        assertTrue( true );
+    }
+    
 }

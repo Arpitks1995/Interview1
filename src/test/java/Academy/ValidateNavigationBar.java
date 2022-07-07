@@ -29,6 +29,7 @@ public class ValidateNavigationBar extends base {
 		Assert.assertTrue(lp.getNaviagationBar().isDisplayed());
 		log.debug("I am doing debuging");
 		log.error("Error is here");
+		log.error("Where is Error");
 		
 	}
 	
