@@ -25,6 +25,7 @@ public class HomePage extends base {
 		System.out.println("Postman1");
 		System.out.println("Postman2");
 		System.out.println("jira1");
+		System.out.println("Jira2");
 	}
 	
 	
